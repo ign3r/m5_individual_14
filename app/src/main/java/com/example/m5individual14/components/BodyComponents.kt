@@ -93,7 +93,6 @@ fun MultiBoton(onSelectionChanged: (String) -> Unit){
                 shape = SegmentedButtonDefaults.itemShape(index = index, count = options.size),
                 icon = {
                     SegmentedButtonDefaults.Icon(active = selectedOption.value ==index) {
-
                     }
                 },
                 onCheckedChange = {
